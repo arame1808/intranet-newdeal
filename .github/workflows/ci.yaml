@@ -27,7 +27,7 @@ jobs:
       - name: 4. Connexion a Docker Hub
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKERHUB_ARAME1808 }}
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       # Envoi final sur ton compte dockerhub_arame1808
